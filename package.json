@@ -1,0 +1,11 @@
+{
+  "name": "atlas-generator",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Bake a playable ATLAS map of an area of mainland Spain from open data",
+  "type": "module",
+  "scripts": {
+    "generate": "node bin/generate.mjs",
+    "test": "node --test test/"
+  }
+}
